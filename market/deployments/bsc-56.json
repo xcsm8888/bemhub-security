@@ -1,0 +1,36 @@
+{
+  "chain": "BNB Smart Chain",
+  "chainId": 56,
+  "verifiedAt": "2026-10-14",
+  "compiler": "0.8.28",
+  "settings": {
+    "optimizer": true,
+    "optimizerRuns": 10000,
+    "evmVersion": "shanghai",
+    "bytecodeHash": "none",
+    "cborMetadata": false
+  },
+  "contracts": {
+    "BemHubFeeTreasury": {
+      "address": "0x69E8ff50878f4b3eA29299eA543d5311C6A59F6c",
+      "deploymentBlock": 124341380,
+      "deploymentTransaction": "0x2c68b74f5f79fbb451e8247d349d555b954826ceb26a130c5f6586c60c9337d7",
+      "runtimeBytes": 4101,
+      "runtimeBytecodeSha256": "34846b5aff82213da5cb36e4dc6318480144bbf3cef9bd753d145fe8bd83025e"
+    },
+    "BemHubCircuitMarket": {
+      "address": "0x2D2f8D87f6Db449A61Eef8Dd61daF9Cc3a165C35",
+      "deploymentBlock": 124341401,
+      "deploymentTransaction": "0xf3c636c1a598eee106bdb510dbf4ca6fe3160e697e2a648b89afa0c894ad8fb0",
+      "runtimeBytes": 8473,
+      "runtimeBytecodeSha256": "f710267fdd9393375c48b26f6171812717b4f14fe3e81621e4320407978cfae8"
+    },
+    "BemHubMaterialMarket": {
+      "address": "0xC7F939955AF2340AdC34Ff1Cf33865Dd60dB8C2c",
+      "deploymentBlock": 124341417,
+      "deploymentTransaction": "0x50c7baac55f1393ffb37d969097e8a866c733126f8005ecc19ebd2082ad8a678",
+      "runtimeBytes": 9360,
+      "runtimeBytecodeSha256": "91d8b30c34aabeda154d49c3f89ac09505905750129b06f95eab743a14bc2a73"
+    }
+  }
+}

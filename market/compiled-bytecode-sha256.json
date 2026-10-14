@@ -1,0 +1,52 @@
+{
+  "compiler": "0.8.28+commit.7893614a.Emscripten.clang",
+  "settings": {
+    "optimizer": true,
+    "optimizerRuns": 10000,
+    "evmVersion": "shanghai",
+    "bytecodeHash": "none",
+    "cborMetadata": false
+  },
+  "contracts": {
+    "BemHubFeeTreasury": {
+      "creationBytecodeSha256": "d6a4f953be1f935dd64a0a7052aaf863ab9da5cc2f18f2afecab21a1b18d3950",
+      "runtimeBytecodeSha256": "34846b5aff82213da5cb36e4dc6318480144bbf3cef9bd753d145fe8bd83025e",
+      "runtimeBytes": 4101,
+      "immutableReferences": {}
+    },
+    "BemHubCircuitMarket": {
+      "creationBytecodeSha256": "793ecedfa16ceb53fcfd0f4a3b95953909244f29a3f5d6f9165160c16a8b4309",
+      "runtimeBytecodeSha256": "22edcc75e8da47629dd1305851da0aafe13825ddfa6f95d4af2c6ebd929471fb",
+      "runtimeBytes": 8473,
+      "immutableReferences": {
+        "331": [
+          {
+            "length": 32,
+            "start": 539
+          },
+          {
+            "length": 32,
+            "start": 6797
+          }
+        ]
+      }
+    },
+    "BemHubMaterialMarket": {
+      "creationBytecodeSha256": "dd7a430ab98b279d9cbd9f8f8a07dc96c3099362af587b6b26765325b061baf8",
+      "runtimeBytecodeSha256": "e88d809c7d1161b0308ea21fd6648bf95f2147f334e8ca69bda10219058a81b5",
+      "runtimeBytes": 9360,
+      "immutableReferences": {
+        "1716": [
+          {
+            "length": 32,
+            "start": 626
+          },
+          {
+            "length": 32,
+            "start": 7962
+          }
+        ]
+      }
+    }
+  }
+}

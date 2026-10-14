@@ -1,0 +1,22 @@
+{
+  "name": "bemhub-security",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "tsx --test tests/*.test.ts telegram/tests/*.test.ts",
+    "typecheck": "tsc --noEmit",
+    "compile:market": "node scripts/compile-market.mjs",
+    "verify:deployment": "npm run compile:market && node scripts/verify-deployment.mjs",
+    "manifest": "node scripts/generate-manifest.mjs",
+    "manifest:write": "node scripts/generate-manifest.mjs --write",
+    "scan:secrets": "node scripts/secret-scan.mjs .",
+    "verify:all": "npm test && npm run typecheck && npm run compile:market && npm run manifest && npm run scan:secrets"
+  },
+  "devDependencies": {
+    "@types/node": "24.7.2",
+    "solc": "0.8.28",
+    "tsx": "4.20.6",
+    "typescript": "5.9.3"
+  }
+}

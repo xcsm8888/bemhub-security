@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "release": "bemhub-security-2026-10-14",
+  "generatedAt": "2026-10-14",
+  "license": "MIT",
+  "thirdPartyAudit": false,
+  "files": [
+    {
+      "module": "market",
+      "path": "market/compiled-bytecode-sha256.json",
+      "sha256": "1c84946883699de122c530c88cf4332968c2d43d4625094b1aae1405289514ad"
+    },
+    {
+      "module": "market",
+      "path": "market/deployments/bsc-56.json",
+      "sha256": "4fa09356ebca2dde34c6904683c1cbfcfceb07be46865dc71465274195f3c323"
+    },
+    {
+      "module": "market",
+      "path": "market/src/BemHubBase.sol",
+      "sha256": "67c31208ccb524ae530f9eb2ca2d9fe11e15294a62ed4ffcb2594dd0ac2d1a0a"
+    },
+    {
+      "module": "market",
+      "path": "market/src/BemHubCircuitMarket.sol",
+      "sha256": "e10ac1f2e8d6b3b400b08f0dbad69ac2a313392ffd6752d2f0c44da8ac3302eb"
+    },
+    {
+      "module": "market",
+      "path": "market/src/BemHubFeeTreasury.sol",
+      "sha256": "3a8749f35802bf24d6db4b5c9fde039a0711c09fa50808c49a027f6f10ac9e59"
+    },
+    {
+      "module": "market",
+      "path": "market/src/BemHubMaterialMarket.sol",
+      "sha256": "73eefca7424f8c30b741c2636eab5379cdaa7b8d9e6ad8f822c86cdcbe2dc798"
+    },
+    {
+      "module": "market",
+      "path": "market/test/AUDIT-AdversarialInvariant.t.sol",
+      "sha256": "65ad56d8e640eee2bd4b398da775184b0272ffe4ad0b37ca91c96e4fcb5b2e27"
+    },
+    {
+      "module": "market",
+      "path": "market/test/BemHubFuzz.t.sol",
+      "sha256": "289c0dba7a97b8069136530fef47916d30ada5b76a3181c4c7ab6ac0ef54fe87"
+    },
+    {
+      "module": "market",
+      "path": "market/test/BemHubInvariant.t.sol",
+      "sha256": "92c578b83b072e8eed21324b46f027505d3062fa88842bf139c66b1f70821f69"
+    },
+    {
+      "module": "market",
+      "path": "market/test/BemHubMarket.t.sol",
+      "sha256": "bac20b686dd3e95d30e361680149a4f4c82b5b7453a07d45c0f3f8a9f598b876"
+    },
+    {
+      "module": "telegram",
+      "path": "telegram/source/storage.ts",
+      "sha256": "3d87a08795ca734086ebf08b8c5ebd3db1cb5da8d96ad2fbfff807c881229862"
+    },
+    {
+      "module": "wheel",
+      "path": "wheel/source/config.ts",
+      "sha256": "99e4b91a98530d151ee7a9a631ecfd1ef6c099cb9be550314df5c2678bc25ad2"
+    },
+    {
+      "module": "wheel",
+      "path": "wheel/source/errors.ts",
+      "sha256": "b4f1f89b21ff65f7548f0927aaf9fc63caec567946537b9881470baebe6eebbf"
+    },
+    {
+      "module": "wheel",
+      "path": "wheel/source/fairness.ts",
+      "sha256": "dc4e78b25fcae89b26a7f829930f413af5f6b03a061476635bc40befcd54216b"
+    },
+    {
+      "module": "wheel",
+      "path": "wheel/source/seed-vault.ts",
+      "sha256": "4efd055040e613d4a6dd39051c5dd6a448c39bc0ddb4c0f55624ca999e52db6c"
+    },
+    {
+      "module": "wheel",
+      "path": "wheel/source/types.ts",
+      "sha256": "aedf195838db57e96ebb11d0ecd8cd1a2e67a748a6c3d20f3511e52ec85f0662"
+    },
+    {
+      "module": "wheel",
+      "path": "wheel/verifier.ts",
+      "sha256": "930e72f4dca7e9a8befcac88c1c20f2024726a65b59db1c8a61f0448011dbe23"
+    }
+  ]
+}
